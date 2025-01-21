@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff7f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #ff69b4;
+    text-align: center;
+}
+
+/* Header */
+.hero {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Gallery Section */
+.gallery {
+    margin: 30px 10%;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.photo-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Message Section */
+.message {
+    margin: 30px 10%;
+    text-align: center;
+}
+
+.message p {
+    background: #fce4ec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #fbc2eb;
+    color: white;
+}
